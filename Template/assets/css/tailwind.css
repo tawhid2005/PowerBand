@@ -1132,8 +1132,8 @@ video {
   background-color: rgb(255 255 255 / 0.05);
 }
 
-.bg-\[url\(\'\.\.\/assets\/img\/patterns\/cubes\.png\'\)\] {
-  background-image: url('../assets/img/patterns/cubes.png');
+.bg-\[url\(\'\.\.\/img\/patterns\/cubes\.png\'\)\] {
+  background-image: url('../img/patterns/cubes.png');
 }
 
 .bg-gradient-to-b {
