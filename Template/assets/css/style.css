@@ -58,6 +58,14 @@ img {
   color: #4ade80;
 }
 
+.collection-card {
+  min-height: 220px;
+}
+
+.collection-card--hero {
+  min-height: 360px;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
