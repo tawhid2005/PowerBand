@@ -15,7 +15,7 @@ Icons
   https://iconify.design
 
 CSS Framework
-- Tailwind CSS Play CDN script (local snapshot, MIT License)
+- Tailwind CSS (MIT License)
   https://tailwindcss.com
 
 Images

@@ -57,7 +57,7 @@
 
     <div class="card">
       <h2>Template Overview</h2>
-      <p>PowerBand is a responsive HTML template for fitness and gear brands. It ships with clean markup, Tailwind Play CDN (bundled locally), local fonts, an SVG icon sprite, and a modular asset structure.</p>
+      <p>PowerBand is a responsive HTML template for fitness and gear brands. It ships with clean markup, compiled Tailwind CSS, local fonts, an SVG icon sprite, and a modular asset structure.</p>
       <p class="muted">Included pages: <code>index.html</code>, <code>about.html</code>.</p>
     </div>
 
@@ -123,7 +123,7 @@ python -m http.server 8000
     <div class="card">
       <h2>Dependencies & Plugins</h2>
       <ul>
-        <li>Tailwind Play CDN (local snapshot): <code>Template/assets/vendor/tailwindcss/tailwindcss.js</code></li>
+        <li>Tailwind CSS (compiled): <code>Template/assets/css/tailwind.css</code></li>
         <li>No additional JS plugins required.</li>
       </ul>
     </div>
@@ -144,7 +144,7 @@ python -m http.server 8000
       <ul>
         <li><strong>Icons not showing?</strong> Ensure <code>Template/assets/img/icons.svg</code> is present and relative paths are intact.</li>
         <li><strong>Fonts not loading?</strong> Confirm the font files in <code>Template/assets/fonts</code> match the <code>@font-face</code> URLs.</li>
-        <li><strong>Tailwind classes not rendering?</strong> Verify <code>Template/assets/vendor/tailwindcss/tailwindcss.js</code> is included in the head.</li>
+        <li><strong>Styles not rendering?</strong> Verify <code>Template/assets/css/tailwind.css</code> is linked in the head.</li>
         <li><strong>Contact form?</strong> This template includes a newsletter form only. Add your own backend integration if needed.</li>
       </ul>
     </div>
